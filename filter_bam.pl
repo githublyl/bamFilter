@@ -93,7 +93,7 @@ while(<I>){
         }
         if(! defined $as_num){
                 $flag=0;
-                }elsif($as_num<$as_cutoff){
+        }elsif($as_num<$as_cutoff){
                 $flag=0;
         }
         if(! defined $xs_num){
